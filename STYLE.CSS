@@ -1,4 +1,4 @@
-/*HOME PAGE */
+
 body {
     min-height: 100vh;
     background-size: cover;
@@ -14,7 +14,6 @@ nav {
     padding: 10px;
     color: #100C0D;
     margin-bottom: 0 !important;
-
 
 
 }
@@ -97,12 +96,11 @@ nav {
         margin-right: auto;
         width: 50%;
       }
+   .home-image a:hover {
+        color: #167D7F;
+        font-weight: bold;
 
 
-/*background-color:#D8A7B1;
-background-size: cover;
-background-position: center;
-width: 100%;
-height: calc(100vh - 120px);
-display: block;
-position: absolute;*/
+    }
+
+
