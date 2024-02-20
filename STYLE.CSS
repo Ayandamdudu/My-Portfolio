@@ -1,0 +1,93 @@
+/*HOME PAGE */
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
+}
+
+nav {
+
+    height: 60px;
+    background-color:palevioletred;
+    padding: 10px;
+    color: #100C0D;
+    margin-bottom: 0 !important;
+
+
+
+}
+
+.navbar-links {
+    display: block;
+    float: right;
+    color: aquamarine;
+}
+
+.navbar-logo {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    font-size: 30px;
+
+}
+
+.navbar-links a {
+    margin: 10px;
+}
+
+.home-image {
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: absolute;
+}
+
+.home-image div {
+
+    text-align: center;
+    color: #C6A17A;
+    font-size: x-large;
+}
+
+
+.content-about-us {
+
+    background-color: #C6A17A;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: block;
+    position: absolute;
+
+    h1 {
+        text-align: center;
+        color: #215CA3;
+        font-size: x-large;
+
+    }
+
+    h3 {
+
+        text-align: center;
+        color: #215CA3;
+        font-size: large;
+    }
+
+    p {
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+
+}
