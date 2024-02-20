@@ -35,7 +35,18 @@ nav {
 
 .navbar-links a {
     margin: 10px;
+    font-weight: bold;
+    color: #100C0D;
+
 }
+.navbar-links a:hover{
+    color: #167D7F;
+
+
+}
+
+
+
 
 .home-image {
     background-color: white;
@@ -55,33 +66,31 @@ nav {
 }
 
 
-.content-about-us {
-
-    background-color: #C6A17A;
+.content-about {
+    
+    background-color:#D8A7B1;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: calc(100vh - 120px);
     display: block;
-    position: absolute;
+    position: absolut;
 
+}
+    
     h1 {
         text-align: center;
-        color: #215CA3;
+        color: #167D7F;
         font-size: x-large;
 
     }
-
-    h3 {
-
-        text-align: center;
-        color: #215CA3;
-        font-size: large;
+    h2{
+        color: #167D7F;
+        font-size: x-large;
     }
 
-    p {
-        text-align: center;
-    }
+
+
     img {
         display: block;
         margin-left: auto;
@@ -90,4 +99,10 @@ nav {
       }
 
 
-}
+/*background-color:#D8A7B1;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: calc(100vh - 120px);
+display: block;
+position: absolute;*/
