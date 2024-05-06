@@ -181,3 +181,25 @@ body{
     width: 100%;
 }
 
+/* Your existing CSS styles */
+/* Scroll up and down buttons */
+#scroll-up,
+#scroll-down {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  display: none; /* Initially hidden */
+}
+
+#scroll-up:hover,
+#scroll-down:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
