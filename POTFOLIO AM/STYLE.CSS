@@ -243,3 +243,49 @@ span {
 body {
   width: 100%;
 }
+/* Contact form styling */
+.contact-form {
+  width: 50%;
+  margin: -500px auto;
+  text-align: center;
+}
+
+.contact-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.contact-form button {
+  width: 20%;
+  padding: 10px;
+  background-color: #5885af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: black;
+}
