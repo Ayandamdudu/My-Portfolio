@@ -179,7 +179,7 @@ span {
   background: url(IMAGES.HTML/maxresdefault.jpg);
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 80vh;
   position: relative;
   font-family: sans-serif;
   margin-bottom: 0;
@@ -292,45 +292,54 @@ body {
   background-color: black;
 }
 
-.slider {
-  width: 60%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the slider horizontally */
-  overflow: hidden; /* Hide overflow content */
-  border-radius: 10px; /* Add border radius */
-  position: relative; /* Position for absolute buttons */
+/* CSS styles for skill blocks */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
 }
 
-.slides {
-  display: flex; /* Display slides in a row */
+.skill {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.slide {
-  flex: 0 0 100%; /* Set slide width */
-  padding: 20px; /* Add padding for better visibility */
-  text-align: center; /* Center slide content */
-  display: none; /* Hide slides by default */
-  background-color: #f9f9f9; /* Background color */
-  border-radius: 10px; /* Add border radius */
+.skill:hover {
+  transform: translateY(-5px);
 }
+    /* CSS styles for skill blocks */
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
 
-.prev,
-.next {
-  position: absolute; /* Position arrows relative to the slider */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for vertical centering */
-  background-color: rgba(0, 0, 0, 0.5); /* Background color for arrows */
-  color: white; /* Text color for arrows */
-  border: none; /* Remove default button styles */
-  border-radius: 50%; /* Add border radius */
-  cursor: pointer; /* Change cursor on hover */
-  padding: 10px; /* Add padding */
-  z-index: 1; /* Ensure arrows are above slides */
-}
+    .skill {
+      position: relative; /* Position relative for icon placement */
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
 
-.prev {
-  left: 0; /* Position left arrow */
-}
+    .skill img {
+      display: block;
+      margin: 0 auto;
+      width: 50px; /* Adjust the width of the image */
+      height: 50px; /* Adjust the height of the image */
+      border-radius: 50%; /* Make the image circular */
+      margin-bottom: 10px; /* Space below the image */
+    }
 
-.next {
-  right: 0; /* Position right arrow */
-}
+    .skill:hover {
+      transform: translateY(-5px);
+    }
+  
