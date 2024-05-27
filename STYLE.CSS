@@ -179,15 +179,16 @@ span {
   background: url(IMAGES.HTML/maxresdefault.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
   position: relative;
   font-family: sans-serif;
+  margin-bottom: 0;
 }
 
 .info3 h1 {
   font-size: 30px;
   color: black;
-  margin-left: 40%;
+  margin-left: 49%;
 }
 
 .info3 span {
@@ -225,6 +226,7 @@ span {
   height: 100vh;
   position: relative;
   font-family: sans-serif;
+  
 }
 
 .info4 h1 {
@@ -288,4 +290,47 @@ body {
 
 .contact-form button:hover {
   background-color: black;
+}
+
+.slider {
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the slider horizontally */
+  overflow: hidden; /* Hide overflow content */
+  border-radius: 10px; /* Add border radius */
+  position: relative; /* Position for absolute buttons */
+}
+
+.slides {
+  display: flex; /* Display slides in a row */
+}
+
+.slide {
+  flex: 0 0 100%; /* Set slide width */
+  padding: 20px; /* Add padding for better visibility */
+  text-align: center; /* Center slide content */
+  display: none; /* Hide slides by default */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 10px; /* Add border radius */
+}
+
+.prev,
+.next {
+  position: absolute; /* Position arrows relative to the slider */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color for arrows */
+  color: white; /* Text color for arrows */
+  border: none; /* Remove default button styles */
+  border-radius: 50%; /* Add border radius */
+  cursor: pointer; /* Change cursor on hover */
+  padding: 10px; /* Add padding */
+  z-index: 1; /* Ensure arrows are above slides */
+}
+
+.prev {
+  left: 0; /* Position left arrow */
+}
+
+.next {
+  right: 0; /* Position right arrow */
 }
