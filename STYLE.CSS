@@ -234,10 +234,14 @@ span {
 }
 
 .info4 img {
-  width: 10%;
-  height: 20%;
+  display: flex; /* Display images inline */
+  width: 100px; /* Adjust the width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add some margin between images */
 }
-
+.info4 img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
 .info4 p {
   font-weight: bold;
 }
@@ -334,4 +338,35 @@ body {
 #scroll-up::before,
 #scroll-down::before {
   content: none; /* Remove content */
+}
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: 90%; /* Limit maximum width to prevent it from overflowing its container */
+  height: 90vh; /* Limit maximum height to 90% of the viewport height */
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.Thankyou {
+  width: 45%; /* Adjust width of the Thank you div */
+  align-items: center;
+  padding-bottom: 90%;
+}
+
+.Thankyou img {
+  border-radius: 50%;
+  width: 100%; /* Make image fill the container */
+  max-width: 200px; /* Limit maximum width */
+}
+
+.centered-text {
+  text-align: center;
+  width: 45%; /* Adjust width of the text */
+  margin-left: 50%;
+ margin-bottom: 100%;
 }
