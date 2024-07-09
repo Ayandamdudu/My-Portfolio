@@ -370,3 +370,27 @@ body {
   margin-left: 50%;
  margin-bottom: 100%;
 }
+.Thankyou {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 0; /* Adjust padding to increase height */
+}
+
+.Thankyou img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.centered-text {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
