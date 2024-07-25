@@ -412,4 +412,55 @@ body {
   margin: 0 auto;
   line-height: 1.6;
 }
+.projects {
+  background-image: url('IMAGES.HTML/maxresdefault.jpg'); /* Change to your background image path */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff;
+}
 
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Optional padding around the grid */
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: to make the corners rounded */
+  transition: transform 0.3s ease;
+}
+
+
+.project-links {
+  display: flex;
+  padding: 0px ; /* Optional padding for links */
+}
+
+.button {
+  text-decoration: none;
+  color: #5885af;
+  background: black;
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 10px; /* Add margin to the left and right */
+}
+
+.button:hover {
+  background: white;
+}
+
+.projects h1 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.projects span {
+  color: #5885af;
+}
